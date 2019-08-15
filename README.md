@@ -22,7 +22,7 @@ Note: Until `wasm-pack` [RFC #6](https://github.com/rustwasm/rfcs/blob/master/te
 
 ### 4) [optional] Test Run
 
-Run a webserver from your project's root directory, such as with `python -m SimpleHTTPServer 8080`, and load http://localhost:8080/ in a browser to view the running app.
+Run a webserver from your project's root directory, such as with `python -m SimpleHTTPServer 8080`, and load http://localhost:8080/ in a browser to run the app.
 
 Note: It's expected behavior for the browser console to display an error similar to "WebAssembly.instantiateStreaming failed. Assuming this is because your server does not serve wasm with application/wasm MIME type."  Your production webserver should be configured to associate WebAssembly files with the `application/wasm` MIME type.
 
