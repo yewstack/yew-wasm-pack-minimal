@@ -18,7 +18,7 @@ Enter `wasm-pack build --target web` from your project's root directory.
 
 Enter `rollup ./main.js --format iife --file ./pkg/bundle.js` from your project's root directory.
 
-Note: Until `wasm-pack` [RFC #6](https://github.com/rustwasm/rfcs/blob/master/text/006-local-js-dependencies.md) is implemented, there is no available option to [generate a single amalgamated JavaScript file](https://github.com/rustwasm/wasm-pack/issues/699).  In the interim, a bundler such as [`Rollup`](https://rollupjs.org/guide/en/#quick-start), must be used.
+Note: Until `wasm-pack` [RFC #6](https://github.com/rustwasm/rfcs/blob/master/text/006-local-js-dependencies.md) is implemented there is no available option to [generate a single amalgamated JavaScript file](https://github.com/rustwasm/wasm-pack/issues/699).  In the interim a bundler, such as [`Rollup`](https://rollupjs.org/guide/en/#quick-start), must be used.
 
 ### 4) [optional] Test Run
 
