@@ -4,7 +4,7 @@ authors = [
     "Samuel Rounce <me@samuelrounce.co.uk>"
 ]
 categories = ["gui", "wasm", "web-programming"]
-description = "yew-wasm-pack-minimal shows the minimum code and tooling necessary for a frontend web app using Yew, wasm-bindgen, and wasm-pack."
+description = "yew-wasm-pack-minimal demonstrates the minimum code and tooling necessary for a frontend web app with simple deployable artifacts consisting of one HTML file, one JavaScript file, and one WASM file, using Yew, wasm-bindgen, and wasm-pack."
 edition = "2018"
 keywords = ["yew", "wasm", "wasm-bindgen", "web"]
 license = "MIT/Apache-2.0"
