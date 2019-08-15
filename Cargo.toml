@@ -1,5 +1,8 @@
 [package]
-authors = ["Kelly Thomas Kline <kellytk@sw-e.org>"]
+authors = [
+    "Kelly Thomas Kline <kellytk@sw-e.org>",
+    "Samuel Rounce <me@samuelrounce.co.uk>"
+]
 categories = ["gui", "wasm", "web-programming"]
 description = "yew-wasm-pack-minimal shows the minimum code and tooling necessary for a frontend web app using Yew, wasm-bindgen, and wasm-pack."
 edition = "2018"
