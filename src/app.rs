@@ -15,10 +15,8 @@ impl Component for App {
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {
         true
     }
-}
 
-impl Renderable<App> for App {
-    fn view(&self) -> Html<Self> {
+    fn view(&self) -> Html {
         html! {
             <p>{ "Hello world!" }</p>
         }
