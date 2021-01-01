@@ -26,6 +26,13 @@ Run a webserver from your project's root directory, such as with the Python 3 co
 
 Note: It's expected behavior for the browser console to display an error similar to "WebAssembly.instantiateStreaming failed. Assuming this is because your server does not serve wasm with application/wasm MIME type."  Your production webserver should be configured to associate WebAssembly files with the `application/wasm` MIME type.
 
+If you have become an orthodox Rust person than you can use `see` or `miniserve` servers to share assets:
+
+```
+cargo install see
+see start -b 8080
+```
+
 ### 5) Deploy
 
 Access your generated build artifacts, `bundle.js` and `yew_wasm_pack_minimal_bg.wasm`, in ./pkg from your project's root directory.
