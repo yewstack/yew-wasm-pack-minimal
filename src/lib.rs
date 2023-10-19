@@ -3,8 +3,6 @@ mod app;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-pub fn run_app() -> Result<(), JsValue> {
-    yew::start_app::<app::App>();
-
-    Ok(())
+pub fn run_app() {
+    yew::Renderer::<app::App>::new().render();
 }
